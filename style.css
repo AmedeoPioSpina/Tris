@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: rgb(48, 47, 47);
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    text-align: center;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+#tris {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 10px;
+    margin: auto auto;
+    width: 500px;
+    height: 500px;
+    background-color: rgb(73, 73, 73);
+}
+
+.intersection {
+    font-size: 8.4rem;
+    color: white;
+    width: 164px;
+    height: 164px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+.pointsCount {
+    text-align: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 2rem;
+    color: white;
+    margin-top: 1rem;
+}
